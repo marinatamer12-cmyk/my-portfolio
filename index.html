@@ -3,51 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Marina - Graphic Designer</title>
+<title>Marina Tamer | My Profile</title>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:'Cairo',sans-serif}
-body{background:#f2f0ea;color:#1a1a1a}
-nav{display:flex;justify-content:space-between;align-items:center;padding:25px 6%;background:#f2f0ea;border-bottom:1px solid #ddd;font-weight:700}
-nav .links{display:flex;gap:20px;font-size:16px}
-nav .logo{font-size:24px;font-weight:900}
-nav .logo span{color:#ff4d1a}
-.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid #ddd;border-radius:30px;padding:8px 18px;background:white;font-size:14px;margin:30px 6% 0 0}
-.dot{width:10px;height:10px;background:#ff4d1a;border-radius:50%}
-.hero{padding:30px 6% 60px}
-.hero h1{font-size:52px;line-height:1.1;font-weight:900;max-width:600px}
-.hero h1 .orange{color:#ff4d1a}
-.hero p{margin-top:25px;color:#555;font-size:18px;line-height:1.8;max-width:520px}
+body{background:#fff0f5;color:#333}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 6%;background:white;border-bottom:1px solid #ffe0ec;position:sticky;top:0;z-index:10}
+nav .logo{font-weight:900;font-size:26px} nav .logo span{color:#ff4d8a}
+nav .links{display:flex;gap:20px;font-weight:700}
+a{color:inherit;text-decoration:none}
+.badge{display:inline-flex;align-items:center;gap:8px;border:1px solid #ffb6d9;border-radius:30px;padding:8px 18px;background:white;font-size:14px;margin:30px 6% 0 0;color:#ff4d8a;font-weight:700}
+.dot{width:10px;height:10px;background:#ff4d8a;border-radius:50%}
+.hero{padding:25px 6% 60px}
+.hero .small-en{color:#ff4d8a;font-weight:700;letter-spacing:2px;margin-bottom:10px}
+.hero h1{font-size:56px;line-height:1.1;font-weight:900;max-width:600px;color:#1a1a1a}
+.hero h1 .pink{color:#ff4d8a}
+.hero p{margin-top:20px;color:#666;font-size:18px;line-height:1.9;max-width:520px}
 .tags{margin-top:30px;display:flex;flex-wrap:wrap;gap:12px}
-.tag{padding:10px 18px;border-radius:12px;font-weight:700;font-size:15px}
-.tag-orange{background:#ffe4d6;color:#ff4d1a}
-.tag-purple{background:#e8e2ff;color:#4b3a8a}
-.tag-white{background:white;border:1px solid #ddd}
+.tag{padding:10px 18px;border-radius:12px;font-weight:700}
+.tag-pink{background:#ffe0ec;color:#ff4d8a} .tag-light{background:#fff;border:1px solid #ffb6d9;color:#ff4d8a} .tag-white{background:white;border:1px solid #eee}
+.white-card{background:white;border-radius:30px;margin:20px 4%;padding:40px;box-shadow:0 10px 30px rgba(255,77,138,0.08)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;margin-top:25px}
+.card{background:#fff0f5;border-radius:18px;height:220px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#ff8fab;border:1px dashed #ffb6d9}
+h2{font-size:36px;font-weight:900} h2 span{color:#ff4d8a}
+.btn{background:#ff4d8a;color:white;padding:14px 28px;border-radius:30px;display:inline-block;margin-top:20px;font-weight:700}
 @media(max-width:600px){.hero h1{font-size:38px}}
 </style>
 </head>
 <body>
 <nav>
 <div class="logo"><span>.</span>Marina</div>
-<div class="links">
-<span>الأعمال</span>
-<span>نبذة</span>
-<span>تواصل</span>
-</div>
+<div class="links"><a href="#works">الأعمال</a><a href="#about">نبذة</a><a href="#contact">تواصل</a></div>
 </nav>
 
 <div class="badge"><span class="dot"></span> متاحة لمشاريع جديدة</div>
 
 <div class="hero">
-<h1>بصمّم محتوى<br><span class="orange">بصري</span> بيحكي<br>حكاية <span class="orange">براندك</span></h1>
-<p>
-مصممة جرافيك متخصصة في محتوى السوشيال ميديا والموشن — من الريلز والستوريز لهوية الصفحة بالكامل، بأسلوب واضح ومتسق يخلي البراند يفضل في دماغ العميل.
-</p>
+<div class="small-en">MY PROFILE — MARINA TAMER</div>
+<h1>بصمّم محتوى<br><span class="pink">بصري</span> بيحكي<br>حكاية <span class="pink">براندك</span></h1>
+<p>أنا مارينا تامر، مصممة جرافيك خريجة فنون جميلة، متخصصة في محتوى السوشيال ميديا والموشن بأسلوب بناتي ومودرن.</p>
 <div class="tags">
-<span class="tag tag-orange">فيديو وموشن</span>
-<span class="tag tag-purple">بوستات وهوية</span>
+<span class="tag tag-pink">فيديو وموشن</span>
+<span class="tag tag-light">بوستات وهوية</span>
 <span class="tag tag-white">11 مشروع منجز</span>
 </div>
 </div>
+
+<div class="white-card" id="works">
+<h2>أعمالي <span>.</span></h2>
+<div class="grid">
+<div class="card">Design 1</div><div class="card">Design 2</div><div class="card">Design 3</div><div class="card">Design 4</div>
+</div>
+</div>
+
+<div style="padding:40px 6%" id="about">
+<h2>نبذة عني <span>.</span></h2>
+<p style="max-width:600px;line-height:1.9;margin-top:15px;color:#555">My Profile — مصممة جرافيك بحب البمبي والأبيض والأسلوب الكيوت البسيط اللي يخلي أي براند يبان رقيق ومميز.</p>
+</div>
+
+<div class="white-card" id="contact">
+<h2>خلينا نشتغل سوا <span>.</span></h2>
+<a class="btn" href="mailto:marinatamer12@gmail.com">تواصلي معايا</a>
+</div>
+
 </body>
 </html>
